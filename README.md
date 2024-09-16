@@ -37,4 +37,42 @@ background-color: yellow;
 </body>
 
  </html>
- 
+ document.querySelector('.mudarTextoBotao').addEventListener('click', function() {
+
+const paragrafo document.querySelector('.descricao');
+
+paragrafo.textContent = 'Texto alteradol';
+
+document.querySelector('.mudarTextoBotao').addEventListener('click', function() {
+
+const paragrafo document.querySelector('.descricao');
+
+paragrafo.textContent = 'Texto alteradol';
+
+4 });
+
+5
+
+6
+
+7
+
+8
+
+document.querySelector('.destacarBotao').addEventListener('click', function() {
+
+const titulo document.querySelector('.titulo');
+
+titulo.classList.add('destaque');
+
+9 });});
+
+
+
+document.querySelector('.destacarBotao').addEventListener('click', function() {
+
+const titulo document.querySelector('.titulo');
+
+titulo.classList.add('destaque');
+
+});
